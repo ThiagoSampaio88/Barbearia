@@ -1,51 +1,154 @@
-/*body{
+header{
+  background: #bbbbbb
+
+}
+
+.caixa{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+nav{
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li{
+  display: inline; /*Lista alinhados em linha*/
+  margin: 0 0 0 15px;
+
+}
+
+nav a{
+  text-transform: uppercase;/*Texto em maiúsculo*/
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none; /*sublinha o texto*/
+}
+
+nav a:hover{
+  color: #c9c978;
+  text-decoration: underline;
+}
+
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos li{
+  display: inline-block;  
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: #000000 solid 2px ;/*Cor - tipo - tamanho*/
+  border-radius: 10px;
+
+}
+
+.produtos li:hover{
+  border-color: #c9c978;
+}
+
+.produtos li:active{
+  border-color:#088c19 ;
+}
+
+.produtos li:hover h2{
+  font-size: 35px;
+}
+
+.produtos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao{
+  font-size: 18px;
+}
+
+.produto-preço {
+  font-size:20px ;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer{
+  text-align: center;
+  background: url('bg.jpg');
+  padding: 40px 0;
+}
+
+.copyright{
+  color: white;
+  font-size:14px;
+  margin: 20px;
   
-}*/
-
-.principal{
-  background: #d6d1d1;
-  padding: 30px;
 }
 
-.titulo-pricipal{
-  padding-left: 20px;
+main{
+  width: 940px;
+  margin: 0 auto;
 }
 
-#banner{
-  width: 100%; 
-  
+form{
+  margin: 40px 0;
 }
 
-p{
-  text-align: center;
-}
-#missao{
-  text-align: center;
-  font-size: 20px;  
-}
-em strong{
-  color: rgb(3, 153, 153);
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
 }
 
-.beneficios{
-  background:rgb(255, 255, 255);
-  padding: 20px;
-}
-.titulocentralizado{
-  text-align: center;
-}
-
-.imagembeneficios{
-  width: 50%;
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 30%;
 }
 
-ul{
-  display: inline-block;/* */
-  vertical-align: top; /*Alinha tudo pela linha de cima*/
-  width: 20%;
-  margin-right: 15%;
-}
-.itens {
-  font-style: italic;
+.checkbox{
+  margin: 20px 0;
 }
 
+.enviar{
+  width: 35%;
+  padding: 15px 0;
+  background: rgb(255, 196, 86);
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover{
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+table{
+  margin: 20px 40px;
+
+}
+
+thead{
+  background: #555555;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+td,th{
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
