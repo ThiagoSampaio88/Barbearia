@@ -162,7 +162,7 @@ td, th {
 	text-align: center;
 	font-size: 2em;
 	margin: 0 0 1em;
-	clear: left;
+	clear: left;	
 }
 
 .principal{
@@ -238,7 +238,13 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
-	
+	opacity: 1 ; /*0 (não mostra nada) - 1 (mostra todo o elemento)*/
+	transition: 400ms;
+	box-shadow: 10px 10px 10px ;
+}
+
+.imagem-beneficios:hover{
+	opacity: 0.3;
 }
 
 .video {
